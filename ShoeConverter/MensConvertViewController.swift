@@ -17,27 +17,26 @@ class MensConvertViewController: UIViewController {
     
     @IBOutlet weak var convertToUSButtonLabel: UIButton!
     @IBOutlet weak var convertToEUButtonLabel: UIButton!
+
     
     
     
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
         // Reset textfield's placeholder text to European
-        mensShoeSizeTextField.placeholder = "Enter hello Shoe Size Here"
+        mensShoeSizeTextField.placeholder = "Enter US Shoe Size Here"
         
         // Reset convert to US label to gray
         convertToUSButtonLabel.titleLabel?.textColor = UIColor.blueColor()
         
         // Reset convert to EU label to blue
         convertToEUButtonLabel.titleLabel?.textColor = UIColor.grayColor()
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
         
+        
+        }
 
-    }
     
 
     override func didReceiveMemoryWarning() {
@@ -92,6 +91,12 @@ class MensConvertViewController: UIViewController {
     }
     
     
+    
+    
+    
+    
+    
+    
 
     //MARK: - Helper Methods
     
@@ -130,6 +135,8 @@ class MensConvertViewController: UIViewController {
                 // Show the alert above the current view
                 presentViewController(alert, animated: true, completion: nil)
             }
+        
+        
         }
     
     
