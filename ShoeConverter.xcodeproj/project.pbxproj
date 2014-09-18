@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A07A9B319CA035B00BD5B1F /* MensConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07A9B219CA035B00BD5B1F /* MensConvertViewController.swift */; };
+		9A07A9B519CA037F00BD5B1F /* WomensConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07A9B419CA037F00BD5B1F /* WomensConvertViewController.swift */; };
+		9A564A7619CA8D300031BBDB /* WZConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A564A7519CA8D300031BBDB /* WZConversionData.swift */; };
 		C1BBCFBC19C8C58000404F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BBCFBB19C8C58000404F7F /* AppDelegate.swift */; };
 		C1BBCFBE19C8C58000404F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BBCFBD19C8C58000404F7F /* ViewController.swift */; };
 		C1BBCFC119C8C58000404F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BBCFBF19C8C58000404F7F /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A07A9B219CA035B00BD5B1F /* MensConvertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MensConvertViewController.swift; sourceTree = "<group>"; };
+		9A07A9B419CA037F00BD5B1F /* WomensConvertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WomensConvertViewController.swift; sourceTree = "<group>"; };
+		9A564A7519CA8D300031BBDB /* WZConversionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZConversionData.swift; sourceTree = "<group>"; };
 		C1BBCFB619C8C58000404F7F /* ShoeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BBCFBA19C8C58000404F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1BBCFBB19C8C58000404F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,8 +83,11 @@
 		C1BBCFB819C8C58000404F7F /* ShoeConverter */ = {
 			isa = PBXGroup;
 			children = (
+				9A564A7519CA8D300031BBDB /* WZConversionData.swift */,
 				C1BBCFBB19C8C58000404F7F /* AppDelegate.swift */,
 				C1BBCFBD19C8C58000404F7F /* ViewController.swift */,
+				9A07A9B219CA035B00BD5B1F /* MensConvertViewController.swift */,
+				9A07A9B419CA037F00BD5B1F /* WomensConvertViewController.swift */,
 				C1BBCFBF19C8C58000404F7F /* Main.storyboard */,
 				C1BBCFC219C8C58000404F7F /* Images.xcassets */,
 				C1BBCFC419C8C58000404F7F /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A564A7619CA8D300031BBDB /* WZConversionData.swift in Sources */,
 				C1BBCFBE19C8C58000404F7F /* ViewController.swift in Sources */,
 				C1BBCFBC19C8C58000404F7F /* AppDelegate.swift in Sources */,
+				9A07A9B319CA035B00BD5B1F /* MensConvertViewController.swift in Sources */,
+				9A07A9B519CA037F00BD5B1F /* WomensConvertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				C1BBCFD719C8C58000404F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1BBCFD819C8C58000404F7F /* Build configuration list for PBXNativeTarget "ShoeConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				C1BBCFDA19C8C58000404F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -77,6 +77,8 @@ class ViewController: UIViewController {
         
         womensConvertShoeSizeLabel.text = "\(sizeFromTextField + conversionConstant)" + " in European Shoe Size"
         
+        // release keyboard
+        sender.resignFirstResponder()
     }
 }
 
